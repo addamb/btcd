@@ -57,6 +57,7 @@ type GetBlockStatsResult struct {
 	SegWitTxs          int64   `json:"swtxs"`
 	Subsidy            int64   `json:"subsidy"`
 	Time               int64   `json:"time"`
+	TotalFee           int64   `json:"totalfee"`
 	TotalOut           int64   `json:"total_out"`
 	TotalSize          int64   `json:"total_size"`
 	TotalWeight        int64   `json:"total_weight"`
